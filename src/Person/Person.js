@@ -10,6 +10,8 @@ const person = ( props ) => {
              <p>{props.password}</p>
             <input type="text" onChange={props.changed2}  />
             <button onClick={props.click}>Testing</button>
+            <button onClick={props.click}>Practice</button>
+            <button onClick={props.click}>Practice branch</button>
         </div>
     )
 };
